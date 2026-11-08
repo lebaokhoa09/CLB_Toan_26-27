@@ -1,5 +1,7 @@
 # Kỳ Thư Đại Hải
 
+Website cho trò chơi câu lạc bộ Toán — kho dự án CLB_Toan_26-27.
+
 ## Tải về và mở offline cho team
 
 Chọn **Code → Download ZIP** trên GitHub, giải nén toàn bộ rồi bấm đúp **OPEN.cmd**. Bản đầy đủ kèm Node.js portable cho Windows x64, không cần cài thêm hoặc chạy npm. Giữ cửa sổ mở local trong lúc chiếu; nếu trình duyệt không tự mở, dùng địa chỉ được in trong cửa sổ.
