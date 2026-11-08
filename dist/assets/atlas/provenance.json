@@ -1,0 +1,43 @@
+{
+  "asset": "Finite native vector atlas material",
+  "retrieved": "2026-10-24",
+  "geographicData": {
+    "provider": "Natural Earth, redistributed by topojson/world-atlas",
+    "dataset": "Natural Earth Admin 0 country boundaries, 1:50m",
+    "naturalEarthVersion": "4.1.0",
+    "worldAtlasVersion": "2.0.2",
+    "localFile": "countries-50m.json",
+    "exactDownloadURL": "https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json",
+    "upstreamLinkedURL": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+    "upstreamDocumentation": "https://github.com/topojson/world-atlas/blob/master/README.md",
+    "sha256": "04342cdc1e3016bcd7db1630de95684d67b79fe3c8c460321e87aef469502394",
+    "license": "Natural Earth data are public domain; world-atlas redistribution code is ISC",
+    "licenseURL": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "redistributionLicenseURL": "https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/LICENSE",
+    "localLicense": "world-atlas-LICENSE.txt"
+  },
+  "construction": {
+    "renderer": "dist/atlas.js renderAtlasPanel, deterministic Canvas 2D material, baked offline by plans/002-curved-voyage/atlas-qa.mjs",
+    "logicalCanvas": [9600, 3200],
+    "nativeTexturePanels": [[2048, 2048], [2048, 2048], [2048, 2048]],
+    "nativeVectorRender": [6144, 2048],
+    "nativeScale": 0.64,
+    "nativeTexturePixels": 12582912,
+    "materialFiles": ["native-panel-1.webp", "native-panel-2.webp", "native-panel-3.webp"],
+    "encoding": "One native6144x2048 vector render split without resampling into three2048x2048 WebP quality94 panels. Logical extent is9600x3200; no source image enlargement",
+    "atlasDrawCalls": 3,
+    "projection": "x=(0.10+0.80*(longitude+180)/360)*9600; y=(85-latitude)/180*3200",
+    "bounds": "One finite world. Latitude display span85 to-95 adds authored southern-ocean padding. Antarctica omitted. Antimeridian-crossing rings clipped at +/-180 degrees. Geography is not tiled.",
+    "referenceRasterUsed": false,
+    "referenceStyle": ["../voyage-panorama/chart.png (2172x724)", "../voyage-v2/reference.png"],
+    "note": "The reference rasters guide the navy/violet/gold material treatment only. They are not upscaled, sampled as textures, or described as native 6K. Geographic shapes are redrawn from actual generalized vectors. Fine relief, facets, grain and illumination are illustrative procedural styling, not elevation or bathymetry."
+  },
+  "limitations": [
+    "Natural Earth 1:50m data generalize small coastlines and islands. This is an illustrative educational chart, not a navigation chart.",
+    "Political boundaries reflect the supplied historical source dataset, not a statement about current sovereignty.",
+    "The decorative chart projection stretches latitude and includes empty ocean margins to support the authored voyage.",
+    "The original AI-style engraved stone treatment is approximated by native procedural materials rather than represented as an identical raster reproduction.",
+    "Three RGBA native textures require about50MB of base GPU texture memory, plus about17MB for mipmaps. CPU Canvas generation happens offline, outside browser startup.",
+    "At a1920x1080 logical camera view, the material contributes roughly1229x691 source pixels. Coastlines originate in detailed vectors; the material magnifies by1.5625x at full1080p display."
+  ]
+}

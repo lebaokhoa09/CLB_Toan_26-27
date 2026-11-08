@@ -1,0 +1,12 @@
+Made with Natural Earth.
+
+Natural Earth raster and vector map data are in the public domain.
+The chart uses the Natural Earth 4.1.0 Admin 0 country boundaries at 1:50m,
+redistributed as TopoJSON by world-atlas 2.0.2.
+
+Terms of use: https://www.naturalearthdata.com/about/terms-of-use/
+Dataset documentation: https://github.com/topojson/world-atlas/blob/master/README.md
+
+The separate world-atlas ISC license is preserved in world-atlas-LICENSE.txt.
+This chart's procedural grain, facets and light are illustrative styling;
+they are not geographic elevation or bathymetric measurements.

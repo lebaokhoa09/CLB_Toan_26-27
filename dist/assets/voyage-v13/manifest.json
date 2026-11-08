@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "fps": 30,
+  "duration": 5,
+  "width": 960,
+  "height": 540,
+  "stage": "continuous-voyage-outro-v13",
+  "initialStill": "rest-00.jpg",
+  "legs": [
+    {
+      "id": 1,
+      "src": "leg-01.mp4",
+      "still": "rest-01.jpg",
+      "startStill": "rest-00.jpg",
+      "duration": 5,
+      "name": "Bờ biển Peru",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "opening"
+    },
+    {
+      "id": 2,
+      "src": "leg-02.mp4",
+      "still": "rest-02.jpg",
+      "startStill": "rest-01.jpg",
+      "duration": 5,
+      "name": "Nội địa Brazil",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "continuous"
+    },
+    {
+      "id": 3,
+      "src": "leg-03.mp4",
+      "still": "rest-03.jpg",
+      "startStill": "rest-02.jpg",
+      "duration": 5,
+      "name": "Đại Tây Dương",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "continuous"
+    },
+    {
+      "id": 4,
+      "src": "leg-04.mp4",
+      "still": "rest-04.jpg",
+      "startStill": "rest-03.jpg",
+      "duration": 5,
+      "name": "Tây Phi",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "continuous"
+    },
+    {
+      "id": 5,
+      "src": "leg-05.mp4",
+      "still": "rest-05.jpg",
+      "startStill": "rest-04.jpg",
+      "duration": 5,
+      "name": "Trung Phi",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "continuous"
+    },
+    {
+      "id": 6,
+      "src": "leg-06.mp4",
+      "still": "rest-06.jpg",
+      "startStill": "rest-05.jpg",
+      "duration": 5,
+      "name": "Đông Phi",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "continuous"
+    },
+    {
+      "id": 7,
+      "src": "leg-07.mp4",
+      "still": "rest-07.jpg",
+      "startStill": "rest-06.jpg",
+      "duration": 5,
+      "name": "Biển Ả Rập",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "continuous"
+    },
+    {
+      "id": 8,
+      "src": "leg-08.mp4",
+      "still": "rest-08.jpg",
+      "startStill": "rest-07.jpg",
+      "duration": 5,
+      "name": "Biển Andaman",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "continuous"
+    },
+    {
+      "id": 9,
+      "src": "leg-09.mp4",
+      "still": "rest-09.jpg",
+      "startStill": "rest-08.jpg",
+      "duration": 5,
+      "name": "Biển Đông",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "continuous"
+    },
+    {
+      "id": 10,
+      "src": "leg-10.mp4",
+      "still": "rest-10.jpg",
+      "startStill": "rest-09.jpg",
+      "duration": 5,
+      "name": "Tây Thái Bình Dương",
+      "holdFrom": 4.8,
+      "cameraName": "V13 continuous camera",
+      "transition": "continuous"
+    }
+  ],
+  "outro": {
+    "src": "outro.mp4",
+    "startStill": "rest-10.jpg",
+    "still": "outro-end.jpg",
+    "duration": 8,
+    "titleFrom": 4.2,
+    "subtitleFrom": 4.8,
+    "completeFrom": 6.8,
+    "holdFrom": 7.8,
+    "transition": "continuous"
+  },
+  "canonicalHandoffs": true,
+  "holdProof": {
+    "nativeSha256": "e4416bcf27617000498da033a541e9b46f07ed20cf5d6e949cff79e23ac8f0b7",
+    "verificationSha256": "2597bc356936680632befb27f96833cd75eb8d171c0f099e6ca41a8d79721bf6",
+    "renderProgressSha256": "5d850fba281ed5831352a523deab5cab7996b2a08232c46723e93b587adb97be"
+  }
+}

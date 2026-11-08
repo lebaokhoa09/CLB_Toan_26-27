@@ -1,0 +1,265 @@
+{
+  "status": "PLANNED — route geometry tested; runtime not changed",
+  "sourceCommit": "e16168f",
+  "worldSize": [
+    9600.0,
+    3200.0
+  ],
+  "shipWidth": 260,
+  "viewport": [
+    1920,
+    1080
+  ],
+  "legSeconds": 6,
+  "rampSeconds": 0.18,
+  "curve": {
+    "type": "open clamped cubic B-spline",
+    "degree": 3,
+    "knots": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07692307692307693,
+      0.15384615384615385,
+      0.23076923076923078,
+      0.3076923076923077,
+      0.38461538461538464,
+      0.46153846153846156,
+      0.5384615384615384,
+      0.6153846153846154,
+      0.6923076923076923,
+      0.7692307692307693,
+      0.8461538461538461,
+      0.9230769230769231,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controlPointsNative": [
+      [
+        430.0,
+        360.0
+      ],
+      [
+        480.0,
+        420.0
+      ],
+      [
+        500.0,
+        550.0
+      ],
+      [
+        580.0,
+        660.0
+      ],
+      [
+        730.0,
+        665.0
+      ],
+      [
+        780.0,
+        580.0
+      ],
+      [
+        830.0,
+        470.0
+      ],
+      [
+        950.0,
+        470.0
+      ],
+      [
+        1000.0,
+        610.0
+      ],
+      [
+        1170.0,
+        650.0
+      ],
+      [
+        1260.0,
+        630.0
+      ],
+      [
+        1360.0,
+        565.0
+      ],
+      [
+        1460.0,
+        630.0
+      ],
+      [
+        1510.0,
+        665.0
+      ],
+      [
+        1670.0,
+        680.0
+      ],
+      [
+        1840.0,
+        635.0
+      ]
+    ],
+    "nativeSize": [
+      2172.0,
+      724.0
+    ]
+  },
+  "arcLength": 7790.6813,
+  "legArcLength": 779.0681,
+  "averageSpeed": 129.8447,
+  "cruiseSpeed": 133.8605,
+  "stops": [
+    {
+      "index": 0,
+      "label": "Xuất phát",
+      "distance": 0.0,
+      "point": [
+        1900.5525,
+        1591.1602
+      ]
+    },
+    {
+      "index": 1,
+      "label": "Ven phía tây Nam Mỹ",
+      "distance": 779.0681,
+      "point": [
+        2221.7676,
+        2294.1496
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Vòng mũi Horn",
+      "distance": 1558.1363,
+      "point": [
+        2695.7656,
+        2873.1776
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Nam Đại Tây Dương",
+      "distance": 2337.2044,
+      "point": [
+        3380.5322,
+        2666.0442
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Uốn lên giữa Đại Tây Dương",
+      "distance": 3116.2725,
+      "point": [
+        3871.1489,
+        2103.3236
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Vòng tây nam châu Phi",
+      "distance": 3895.3407,
+      "point": [
+        4443.8038,
+        2561.6114
+      ]
+    },
+    {
+      "index": 6,
+      "label": "Nam Ấn Độ Dương",
+      "distance": 4674.4088,
+      "point": [
+        5155.2446,
+        2831.3375
+      ]
+    },
+    {
+      "index": 7,
+      "label": "Tiếp cận phía tây châu Úc",
+      "distance": 5453.4769,
+      "point": [
+        5892.3444,
+        2611.268
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Vòng phía nam châu Úc",
+      "distance": 6232.5451,
+      "point": [
+        6600.473,
+        2868.6055
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Phía nam New Zealand",
+      "distance": 7011.6132,
+      "point": [
+        7368.084,
+        2951.7934
+      ]
+    },
+    {
+      "index": 10,
+      "label": "Nam Thái Bình Dương",
+      "distance": 7790.6813,
+      "point": [
+        8132.5967,
+        2806.6298
+      ]
+    }
+  ],
+  "camera": {
+    "anchor": [
+      800,
+      650
+    ],
+    "lookAheadDistance": 120,
+    "softClampMargin": 180,
+    "bounds": [
+      [
+        0,
+        7680
+      ],
+      [
+        0,
+        2120
+      ]
+    ],
+    "orientationChanges": false
+  },
+  "geometryChecks": {
+    "sampleCount": 30001,
+    "strictlyEastward": true,
+    "selfIntersections": 0,
+    "zeroLengthSamples": 0,
+    "cameraAlwaysInsideAtlas": true,
+    "shipScreenBounds": [
+      [
+        680.017,
+        519.969
+      ],
+      [
+        800.0,
+        842.169
+      ]
+    ],
+    "minimumStopChord": 715.409,
+    "minimumTurnRadiusEstimate": 340.118,
+    "headingDegrees": [
+      -63.121,
+      73.156
+    ],
+    "peakTurnRateCruiseDegreesPerSecondEstimate": 22.55
+  },
+  "unverified": [
+    "Exact shoreline clearance: requires full-size visual pass and conservative shore mask.",
+    "New high-resolution atlas master quality; current native2172x724 is preview-only at this zoom.",
+    "Correct upright ship heading through turns; no whole-card rotation or alpha pose morph permitted.",
+    "Continuous renderer FPS and all question boundaries after implementation."
+  ]
+}

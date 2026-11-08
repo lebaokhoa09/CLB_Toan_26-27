@@ -1,0 +1,3 @@
+# Kỳ Thư Đại Hải
+
+Vietnamese mathematics-club presentation for a desktop projector. One start gives five black seconds, animated opening, then ten six-second legs and corresponding PDF questions. A–D locks immediately; the host manually continues. The approved finite curved voyage uses a9600×3200logical chart and a smaller opaque3Dgalleon that yaws while keeping its masts upright. Each leg covers778.934246units with0.18second speed ramps and average129.822374units/s, preserving the accepted pace. Native6144×2048illustrated vector chart, navy/violet/gold material language, no repeated geography, X, dashes, map question labels or audience HUD. No roll/heave/morph. The ship is an authored reconstruction, not a pixel-identical original-video vessel. See WORLD-BIBLE.md.

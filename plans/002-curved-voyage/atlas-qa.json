@@ -1,0 +1,62 @@
+{
+  "data": {
+    "sourceArcs": 1959,
+    "sourcePoints": 80617,
+    "coastalPolygons": 1326,
+    "borderArcs": 362
+  },
+  "logicalSize": [
+    9600,
+    3200
+  ],
+  "nativeVectorRender": [
+    6144,
+    2048
+  ],
+  "nativeTexturePixels": 12582912,
+  "panels": [
+    {
+      "index": 0,
+      "native": [
+        2048,
+        2048
+      ],
+      "milliseconds": 946
+    },
+    {
+      "index": 1,
+      "native": [
+        2048,
+        2048
+      ],
+      "milliseconds": 854
+    },
+    {
+      "index": 2,
+      "native": [
+        2048,
+        2048
+      ],
+      "milliseconds": 746
+    }
+  ],
+  "fullMaterialMs": 1782,
+  "totalMs": 11423,
+  "seams": "Panels extracted without resampling from one continuous6144x2048 native render; global material phase and geometry are shared",
+  "invalidCoordinates": 0,
+  "antimeridianSpanningEdges": 0,
+  "knownProjectionPoints": {
+    "greenwichEquator": [
+      4800,
+      1511.111111111111
+    ],
+    "southCape": [
+      5194.666666666667,
+      2129.777777777778
+    ],
+    "capeHorn": [
+      3364.266666666667,
+      2506.3111111111107
+    ]
+  }
+}

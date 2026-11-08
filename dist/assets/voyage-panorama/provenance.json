@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "asset": "chart.png",
+  "createdDateLocal": "2026-10-24",
+  "method": "Built-in image_gen image edit/outpaint; one targeted edit of ocean margins.",
+  "origin": {
+    "path": "C:\\Users\\Le Bao Khoa\\OneDrive\\Documents\\ChatGPT\\CLB Toán 2\\ky-thu-dai-hai\\dist\\assets\\voyage-v2\\chart-clean.png",
+    "role": "edit target",
+    "width": 1672,
+    "height": 941
+  },
+  "generations": [
+    {
+      "index": 1,
+      "tool": "image_gen.imagegen",
+      "prompt": "Use case: precise-object-edit.\nAsset type: seamless horizontally repeating world-chart panorama for a slow side-scrolling voyage website.\nInput image 1 is the EDIT TARGET: the existing weathered navy-and-violet world chart. Preserve its recognizable graphic treatment, fine engraved gold coasts and borders, textured dark navy ocean, violet-blue continents, physical raised/engraved map material, oblique near-top-down view and warm upper-right light.\nPrimary request: OUTPAINT this chart to a very wide 3:1 panorama, ideally 3072 by 1024 pixels. Preserve the existing central world chart's look and geography; naturally complete the cut-off western Americas on the left and eastern Asia/Australia on the right, then extend into broad dark textured Pacific ocean margins at the far left and far right. Keep the Americas, Europe/Africa, and Asia/Australia in the same west-to-east arrangement, exactly once across the image. No duplicated or invented continents.\nHorizontal tiling requirement: the far left and far right edges must join seamlessly when the panorama repeats. Both outer edges must be unobstructed deep navy Pacific ocean with the SAME tone, texture scale, and illumination. At least the outermost 12 percent on both sides should be dark textured open Pacific water. Texture must be continuous and naturally varied, with no straight border or bright line. No coastline, land, gold contour, shadow, sun ray, or strong diagonal crack can be clipped abruptly at either outer edge. The centre-right warm light must taper off well before the outside boundaries. Do not use a visible vignette border or picture frame.\nComposition: broad horizontal continuous map surface filling the complete image, one coherent chart, no paper edge. Maintain detailed tangible weathered surface texture throughout; do not turn it into a flat modern map or blurry background. Keep the central continents large and recognizable while allowing the extra ocean width to create a wider travelling surface.\nConstraints: no ship or boat, no route or dashed line, no X, no marker, no labels or text, no compass, no UI, no watermark. This is a decorative world chart rather than a GPS map. Change only what is needed to extend the image and make the horizontal repeat work; preserve the supplied visual language. Opaque image.",
+      "inputPaths": [
+        "C:\\Users\\Le Bao Khoa\\OneDrive\\Documents\\ChatGPT\\CLB Toán 2\\ky-thu-dai-hai\\dist\\assets\\voyage-v2\\chart-clean.png"
+      ],
+      "generatedOutputPath": "C:\\Users\\Le Bao Khoa\\.codex\\generated_images\\01a16b7d-a2ea-74e3-a425-5b53e41f87d2\\exec-3131b713-a028-4229-b31a-a969706abf9c.png",
+      "width": 2172,
+      "height": 724,
+      "selected": false
+    },
+    {
+      "index": 2,
+      "tool": "image_gen.imagegen",
+      "prompt": "Use case: precise-object-edit.\nInput image 1 is the EDIT TARGET, an existing 3:1 world-chart panorama.\nMake exactly one targeted correction: repair horizontal repeat continuity in the dark Pacific ocean at the FAR LEFT and FAR RIGHT outer margins.\nKeep the panorama 3:1, ideally 3072 by 1024 pixels; preserve the full one-world west-to-east arrangement, the same central continents, engraved fine gold coastlines/borders, navy ocean and violet land, physical weathered map texture and central upper-right warm light. No stylistic redesign.\nCritical repair: when the RIGHT EDGE is placed immediately beside the LEFT EDGE, there must be NO VISIBLE VERTICAL SEAM. Treat the two sides as a single continuous ocean surface wrapping around a cylinder. Make the outermost 15 percent at each end dark navy Pacific water with matching illumination, continuous very fine detailed weathered microtexture, and restrained low-contrast relief. Remove the large crossing gold-veined cracks, strong diagonal ridges and directional shading from just these outer boundary strips, since those cannot stop abruptly at the tile join. Dark navy colour at every height on the left and right edges must match. Continue the same subtle surface pattern through the wrap. Keep realistic fine texture, never flat blank fill, and no smeared blur.\nOnly the ocean margin continuity should change. Preserve all other central image appearance, geography and lighting. A slight reduction of edge contrast is acceptable to hide the loop. No edge vignettes, frame, coast or sun rays at the boundary.\nExactly one set of Earth continents. No boat, route, dashed line, text, labels, marker, X, compass, graphic symbols, UI or watermark. Opaque image.",
+      "inputPaths": [
+        "C:\\Users\\Le Bao Khoa\\.codex\\generated_images\\01a16b7d-a2ea-74e3-a425-5b53e41f87d2\\exec-3131b713-a028-4229-b31a-a969706abf9c.png"
+      ],
+      "generatedOutputPath": "C:\\Users\\Le Bao Khoa\\.codex\\generated_images\\01a16b7d-a2ea-74e3-a425-5b53e41f87d2\\exec-f2f7f1f0-ea3b-4b1b-a751-038f9320c3b7.png",
+      "width": 2172,
+      "height": 724,
+      "selected": true
+    }
+  ],
+  "output": {
+    "path": "C:\\Users\\Le Bao Khoa\\OneDrive\\Documents\\ChatGPT\\CLB Toán 2\\ky-thu-dai-hai\\dist\\assets\\voyage-panorama\\chart.png",
+    "width": 2172,
+    "height": 724,
+    "aspectRatio": "3:1",
+    "requestedIdealDimensions": {
+      "width": 3072,
+      "height": 1024
+    },
+    "actualNativeDimensions": true,
+    "pixelEditsApplied": false
+  },
+  "inspection": {
+    "fullImageViewed": true,
+    "seamViewed": true,
+    "seamInspectionPath": "C:\\Users\\Le Bao Khoa\\OneDrive\\Documents\\ChatGPT\\CLB Toán 2\\motion-evidence\\speed-revision\\seam-input.png",
+    "inspectionConstruction": "For QA only, 500 native pixels from the right edge placed beside 500 native pixels from the left edge. Final chart pixels were not edited.",
+    "outerMargins": "Visually, approximately the outer 12% on both sides are dark textured open ocean without land, labels or bright rays. No duplicate continents; original navy/violet/gold material is recognizable.",
+    "seamConclusion": "Second edit removed most strong crossing cracks and reduced the seam. A faint vertical texture/tonal join remains at a direct repeat, so the native output is not pixel-perfect seamless.",
+    "meanBoundaryRgbDifference": 6.207,
+    "meanAdjacentEdgePixelRgbDifference": 2.474,
+    "metricUnits": "Mean absolute 8-bit RGB difference per channel. Descriptive QA metric only, not a perceptual quality score.",
+    "recommendedIntegration": "If exact periodic equality is required, a narrow static blend restricted to the empty outer ocean margins can repair the join without touching the continents. No moving crossfade is needed.",
+    "runtimeIntegration": "world.js joins the empty ocean with a static 4% edge blend in map material; no temporal crossfade or vessel changes."
+  },
+  "preservedOldChart": true,
+  "limitations": [
+    "Native resolution is 2172x724, rather than the requested ideal 3072x1024.",
+    "AI-edited decorative geography is not suitable for navigational precision.",
+    "Direct repetition still has a faint texture/tonal seam; exact boundary continuity has not been achieved by generation alone."
+  ]
+}

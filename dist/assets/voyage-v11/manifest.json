@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "fps": 30,
+  "duration": 5,
+  "width": 1280,
+  "height": 720,
+  "stage": "cinematic-simple-v11",
+  "initialStill": "rest-00.jpg",
+  "legs": [
+    {
+      "id": 1,
+      "src": "leg-01.mp4",
+      "still": "rest-01.jpg",
+      "duration": 5,
+      "name": "Bờ biển Peru",
+      "holdFrom": 4.8
+    },
+    {
+      "id": 2,
+      "src": "leg-02.mp4",
+      "still": "rest-02.jpg",
+      "duration": 5,
+      "name": "Nội địa Brazil",
+      "holdFrom": 4.8
+    },
+    {
+      "id": 3,
+      "src": "leg-03.mp4",
+      "still": "rest-03.jpg",
+      "duration": 5,
+      "name": "Đại Tây Dương",
+      "holdFrom": 4.8
+    },
+    {
+      "id": 4,
+      "src": "leg-04.mp4",
+      "still": "rest-04.jpg",
+      "duration": 5,
+      "name": "Tây Phi",
+      "holdFrom": 4.8
+    },
+    {
+      "id": 5,
+      "src": "leg-05.mp4",
+      "still": "rest-05.jpg",
+      "duration": 5,
+      "name": "Trung Phi",
+      "holdFrom": 4.8
+    },
+    {
+      "id": 6,
+      "src": "leg-06.mp4",
+      "still": "rest-06.jpg",
+      "duration": 5,
+      "name": "Đông Phi",
+      "holdFrom": 4.8
+    },
+    {
+      "id": 7,
+      "src": "leg-07.mp4",
+      "still": "rest-07.jpg",
+      "duration": 5,
+      "name": "Biển Ả Rập",
+      "holdFrom": 4.8
+    },
+    {
+      "id": 8,
+      "src": "leg-08.mp4",
+      "still": "rest-08.jpg",
+      "duration": 5,
+      "name": "Biển Andaman",
+      "holdFrom": 4.8
+    },
+    {
+      "id": 9,
+      "src": "leg-09.mp4",
+      "still": "rest-09.jpg",
+      "duration": 5,
+      "name": "Biển Đông",
+      "holdFrom": 4.8
+    },
+    {
+      "id": 10,
+      "src": "leg-10.mp4",
+      "still": "rest-10.jpg",
+      "duration": 5,
+      "name": "Tây Thái Bình Dương",
+      "holdFrom": 4.8
+    }
+  ],
+  "holdProof": {
+    "nativeSha256": "daabeac76c9557b4efd4d59544b72b90e93194801cb8887cd61cae752e477956",
+    "verificationSha256": "efb4d1a9a64352da852d87752250d1ea84900116e3ac3235df46f441ff8e189d",
+    "renderProgressSha256": "887606568712370690887f53b13fa4b2063111d3ce173879f19ee8b757e2113e"
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="462" height="550" viewBox="0 0 462 550" fill="none">
+  <title>La bàn nét viền màu vàng</title>
+  <g stroke="#dfc58f" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M208 73A37 37 0 1 1 254 73"/>
+    <path d="M208 96V80C208 59 254 59 254 80V96"/>
+    <circle cx="231" cy="321" r="222"/>
+    <circle cx="231" cy="321" r="181"/>
+    <path d="M231 141V184M231 459V502M50 318H93M369 318H412"/>
+    <path d="M202 294L331 220L260 351L134 422Z"/>
+    <circle cx="231" cy="321" r="20.5"/>
+  </g>
+</svg>

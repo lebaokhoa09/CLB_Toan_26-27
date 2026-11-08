@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#11132d">
+  <meta name="description" content="Kỳ Thư Đại Hải — hành trình khám phá mười thử thách Toán học cùng Adrian và thuyền trưởng Wilson.">
+  <title>Kỳ Thư Đại Hải — Hành trình Toán học</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./fonts/be-vietnam-pro-semibold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./assets/opening-background.png" as="image">
+  <link rel="preload" href="./assets/opening-title.png" as="image">
+  <link rel="stylesheet" href="./style.css?v=21-lobby-8">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.min.js"}}</script>
+  <script src="./vendor/gsap.min.js" defer></script>
+  <script type="module" src="./app.js?v=21-gull-14"></script>
+</head>
+<body data-phase="lobby" data-presentation="true" data-release="v21-gull-14">
+  <svg class="icon-defs" aria-hidden="true"><defs>
+    <symbol id="i-full" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></symbol>
+    <symbol id="i-sound" viewBox="0 0 24 24"><path d="m11 4-6 5H2v6h3l6 5zM16 8c3 2 3 6 0 8m3-11c5 4 5 10 0 14"/></symbol>
+    <symbol id="i-muted" viewBox="0 0 24 24"><path d="m11 4-6 5H2v6h3l6 5zM16 9l6 6m0-6-6 6"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><path d="M4 7h16M4 17h16M9 4v6m6 4v6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14m8-14v14"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 4 12 8-12 8z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-ship" viewBox="0 0 24 24"><path d="M12 2v13M11 4l-7 9h7m3-6 6 6h-6M3 16h19l-4 5H7z"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#question-prompt">Đến nội dung câu hỏi</a>
+  <header class="global-controls" hidden inert>
+    <span class="game-wordmark" aria-hidden="true">Kỳ Thư Đại Hải</span>
+    <nav aria-label="Điều khiển trình chiếu">
+      <button class="icon-button" id="sound" type="button" aria-label="Tắt âm thanh" aria-pressed="true" title="Tắt âm thanh (M)"><svg><use href="#i-sound"/></svg></button>
+      <button class="icon-button" id="fullscreen" type="button" aria-label="Toàn màn hình" title="Toàn màn hình (F)"><svg><use href="#i-full"/></svg></button>
+      <button class="icon-button" id="settings-open" type="button" aria-label="Cài đặt trò chơi" title="Cài đặt"><svg><use href="#i-settings"/></svg></button>
+    </nav>
+  </header>
+  <main id="game">
+    <section id="lobby" class="screen lobby" aria-label="Chuẩn bị trình chiếu">
+      <div class="lobby-actions">
+        <button id="start" class="primary" type="button" disabled>Bắt đầu trình chiếu <svg><use href="#i-play"/></svg></button>
+        <span id="loading-note" class="loading-note" role="status">Đang chuẩn bị…</span>
+        <button id="retry-film" class="quiet-button" type="button" hidden>Thử tải lại phim</button>
+      </div>
+    </section>
+    <section id="blackout" class="screen blackout" aria-label="Màn chờ trình chiếu" hidden inert></section>
+    <section id="opening" class="screen opening" aria-labelledby="game-title" hidden inert>
+      <div class="opening-art" aria-hidden="true"></div>
+      <div class="opening-light" aria-hidden="true"></div>
+      <div class="opening-dust" aria-hidden="true"></div>
+      <h1 id="game-title"><span class="sr-only">Kỳ Thư Đại Hải</span><img class="title-art" src="./assets/opening-title.png" alt="" width="1659" height="948"></h1>
+    </section>
+
+    <section id="voyage" class="screen voyage" aria-labelledby="voyage-heading" hidden inert>
+      <h2 id="voyage-heading" class="sr-only">Hành trình trên bản đồ</h2>
+      <canvas id="world" tabindex="0" aria-label="Tàu buồm 3D quay theo hải trình cong trên bản đồ xanh tím, đi qua mười điểm dừng để mở câu hỏi."></canvas>
+      <div id="fallback" class="fallback" hidden><img src="./assets/voyage-v2/chart-clean.png" alt="Bản đồ hành trình màu tím"><p>Chế độ ảnh • Trò chơi vẫn hoạt động đầy đủ</p></div>
+      <div class="voyage-top" hidden>
+        <div class="destination"><span id="leg-label" class="sr-only" aria-hidden="true">Điểm dừng 1 / 10</span><h3 id="destination-name">Dấu X thứ nhất · 1 / 10</h3></div>
+      </div>
+      <div id="marker-tooltip" class="marker-tooltip" role="status" hidden></div>
+      <div class="voyage-bottom" hidden>
+        <div class="voyage-status"><p id="travel-status" aria-live="polite">Đang hướng tới thử thách đầu tiên</p><div class="travel-track" aria-hidden="true"><div id="travel-progress"></div></div></div>
+        <button id="pause" class="quiet-button" type="button"><svg><use href="#i-pause"/></svg><span>Tạm dừng</span></button>
+      </div>
+      <ol id="route-progress" class="route-progress" aria-label="Tiến độ mười câu hỏi" hidden></ol>
+    </section>
+
+    <section id="question" class="screen question" aria-labelledby="question-prompt" hidden inert>
+      <div class="question-backdrop" aria-hidden="true"></div>
+      <div class="question-reading-shade" aria-hidden="true"></div>
+      <div class="question-scroll">
+        <div class="question-content">
+          <div class="question-top"><span id="question-number">Câu hỏi 1 / 10</span><span id="score-small" hidden>0 câu đúng</span></div>
+          <p id="question-story" class="question-story"></p>
+          <h2 id="question-prompt" tabindex="-1"></h2>
+          <div id="answers" class="answers" role="group" aria-label="Chọn một đáp án để chốt"></div>
+          <p id="answer-instruction" class="answer-instruction">Chọn A–D để chốt đáp án.</p>
+          <div id="feedback" class="feedback" hidden>
+            <div class="feedback-copy" role="status" aria-live="polite"><strong id="feedback-title"></strong><p id="feedback-explanation"></p></div>
+            <button id="continue" class="primary" type="button" aria-keyshortcuts="Enter">Tiếp tục hành trình <svg><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="complete" class="screen complete" aria-labelledby="complete-heading" hidden inert>
+      <div class="complete-backdrop" aria-hidden="true"></div>
+      <div class="complete-scroll"><div class="complete-content">
+        <img class="complete-compass" src="./assets/compass-outline-gold.svg" width="462" height="550" alt="" aria-hidden="true">
+        <h2 id="complete-heading" tabindex="-1">Hành trình đã trọn vẹn.</h2>
+        <p id="complete-subtitle" class="complete-intro">Mười điểm dừng, mười điều được khám phá.</p>
+        <p class="final-score"><strong id="final-score">0</strong><span>/ 10 câu đúng</span></p>
+        <div class="complete-actions"><button id="replay" class="primary" type="button">Chơi lại <svg><use href="#i-arrow"/></svg></button><button id="review-toggle" class="quiet-button" type="button" aria-expanded="false">Xem lại đáp án</button></div>
+        <ol id="answer-review" class="answer-review" hidden></ol>
+      </div></div>
+    </section>
+  </main>
+  <audio id="background-music" src="./assets/audio/adventure-quiet-outro-10min.mp3" preload="metadata" loop hidden aria-hidden="true"></audio>
+  <audio id="water-ambience" src="./assets/audio/bow-wave-distant-loop.mp3" preload="metadata" loop hidden aria-hidden="true"></audio>
+  <audio id="wood-ambience" src="./assets/audio/wooden-boat-creak-loop.mp3" preload="metadata" loop hidden aria-hidden="true"></audio>
+  <audio id="gull-cue" src="./assets/audio/seagull-departure-cue.mp3" preload="metadata" hidden aria-hidden="true"></audio>
+  <div id="curtain" class="curtain" aria-hidden="true"><div></div></div>
+  <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+  <p id="toast" class="toast" role="status" hidden></p>
+
+  <dialog id="settings" aria-labelledby="settings-title">
+    <div class="dialog-heading"><h2 id="settings-title">Điều khiển hành trình</h2><button id="settings-close" class="icon-button" aria-label="Đóng cài đặt" type="button"><svg><use href="#i-close"/></svg></button></div>
+    <label class="setting-row" for="leg-duration"><span>Thời gian mỗi chặng<small>Chỉ tính lúc tàu đang đi</small></span><select id="leg-duration"><option value="4">4 giây</option><option value="5" selected>5 giây</option><option value="6">6 giây</option><option value="10">10 giây</option><option value="15">15 giây</option></select></label>
+    <label class="setting-row" for="quality"><span>Chất lượng bản đồ<small>Dùng chế độ nhẹ nếu máy trình chiếu chậm</small></span><select id="quality"><option value="auto">Tự động</option><option value="low">Nhẹ</option></select></label>
+    <label class="setting-row" for="reduce-motion"><span>Giảm chuyển động<small>Giữ nội dung và thời gian chuẩn bị</small></span><input type="checkbox" id="reduce-motion"></label>
+    <div class="keyboard-help"><p>Phím tắt</p><dl><div><dt>A–D / 1–4</dt><dd>Chọn và chốt đáp án</dd></div><div><dt>Enter</dt><dd>Tiếp tục sau kết quả</dd></div><div><dt>Backspace</dt><dd>Xóa lựa chọn; bấm tiếp để về câu trước chưa trả lời</dd></div><div><dt>Space</dt><dd>Tạm dừng / đi tiếp</dd></div><div><dt>F</dt><dd>Toàn màn hình</dd></div></dl></div>
+    <div class="restart-area"><button id="restart-ask" class="text-button" type="button">Bắt đầu lại từ đầu</button><div id="restart-confirm" hidden><p>Xóa tiến độ hiện tại và quay lại màn mở đầu?</p><button id="restart-confirm-button" class="danger-button" type="button">Bắt đầu lại</button><button id="restart-cancel" class="quiet-button" type="button">Giữ hành trình</button></div></div>
+    <div class="settings-extras">
+      <button id="resume" class="quiet-button" type="button" hidden>Tiếp tục hành trình đã lưu</button>
+      <a class="music-credit" href="./music-credits.html" target="_blank" rel="noopener">Nguồn nhạc và giấy phép</a>
+    </div>
+  </dialog>
+  <noscript><div class="noscript">Trò chơi cần bật JavaScript để tàu di chuyển và hiển thị câu hỏi.</div></noscript>
+</body>
+</html>

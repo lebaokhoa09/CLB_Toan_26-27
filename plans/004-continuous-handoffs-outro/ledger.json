@@ -1,0 +1,566 @@
+{
+  "schema": "ship-pause-aware-seam-plan/v1",
+  "status": "plan_only",
+  "adapted_from": [
+    "motion-doctrine",
+    "cut-the-curve"
+  ],
+  "renderer": "pre-rendered Blender video",
+  "voyage_seconds": 50,
+  "legs": 10,
+  "seconds_per_leg": 5,
+  "fps": 30,
+  "proposed_outro_seconds": 8,
+  "proposed_total_authored_seconds": 58,
+  "question_wait_seconds": "unbounded; excluded from authored time",
+  "scope": "One persistent world and camera path split into clips; no runtime or native change in planning.",
+  "seams": [
+    {
+      "id": "seam-01",
+      "from": "leg-01",
+      "to": "leg-02",
+      "boundary_active_voyage_seconds": 5,
+      "wall_clock_trigger": "continue_after_answer_1",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "stern windows and coastline",
+      "exit": {
+        "pose_ref": "K1",
+        "world_state_ref": "W1",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K1",
+        "world_state_ref": "W1",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K1; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    },
+    {
+      "id": "seam-02",
+      "from": "leg-02",
+      "to": "leg-03",
+      "boundary_active_voyage_seconds": 10,
+      "wall_clock_trigger": "continue_after_answer_2",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "stern and port railing",
+      "exit": {
+        "pose_ref": "K2",
+        "world_state_ref": "W2",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K2",
+        "world_state_ref": "W2",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K2; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    },
+    {
+      "id": "seam-03",
+      "from": "leg-03",
+      "to": "leg-04",
+      "boundary_active_voyage_seconds": 15,
+      "wall_clock_trigger": "continue_after_answer_3",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "port hull and coastline",
+      "exit": {
+        "pose_ref": "K3",
+        "world_state_ref": "W3",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K3",
+        "world_state_ref": "W3",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K3; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    },
+    {
+      "id": "seam-04",
+      "from": "leg-04",
+      "to": "leg-05",
+      "boundary_active_voyage_seconds": 20,
+      "wall_clock_trigger": "continue_after_answer_4",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "port foremast and land shadow",
+      "exit": {
+        "pose_ref": "K4",
+        "world_state_ref": "W4",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K4",
+        "world_state_ref": "W4",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K4; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    },
+    {
+      "id": "seam-05",
+      "from": "leg-05",
+      "to": "leg-06",
+      "boundary_active_voyage_seconds": 25,
+      "wall_clock_trigger": "continue_after_answer_5",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "bow tip and coast",
+      "exit": {
+        "pose_ref": "K5",
+        "world_state_ref": "W5",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K5",
+        "world_state_ref": "W5",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K5; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    },
+    {
+      "id": "seam-06",
+      "from": "leg-06",
+      "to": "leg-07",
+      "boundary_active_voyage_seconds": 30,
+      "wall_clock_trigger": "continue_after_answer_6",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "bow and forward route",
+      "exit": {
+        "pose_ref": "K6",
+        "world_state_ref": "W6",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K6",
+        "world_state_ref": "W6",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K6; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    },
+    {
+      "id": "seam-07",
+      "from": "leg-07",
+      "to": "leg-08",
+      "boundary_active_voyage_seconds": 35,
+      "wall_clock_trigger": "continue_after_answer_7",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "forecastle and forward coast",
+      "exit": {
+        "pose_ref": "K7",
+        "world_state_ref": "W7",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K7",
+        "world_state_ref": "W7",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K7; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    },
+    {
+      "id": "seam-08",
+      "from": "leg-08",
+      "to": "leg-09",
+      "boundary_active_voyage_seconds": 40,
+      "wall_clock_trigger": "continue_after_answer_8",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "bowsprit and forward coast",
+      "exit": {
+        "pose_ref": "K8",
+        "world_state_ref": "W8",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K8",
+        "world_state_ref": "W8",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K8; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    },
+    {
+      "id": "seam-09",
+      "from": "leg-09",
+      "to": "leg-10",
+      "boundary_active_voyage_seconds": 45,
+      "wall_clock_trigger": "continue_after_answer_9",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "whole vessel and archipelago",
+      "exit": {
+        "pose_ref": "K9",
+        "world_state_ref": "W9",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K9",
+        "world_state_ref": "W9",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K9; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    },
+    {
+      "id": "seam-10",
+      "from": "leg-10",
+      "to": "outro",
+      "boundary_active_voyage_seconds": 50,
+      "wall_clock_trigger": "continue_after_answer_10",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "carrier": "final vessel position and atlas",
+      "exit": {
+        "pose_ref": "K10",
+        "world_state_ref": "W10",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "entry": {
+        "pose_ref": "K10",
+        "world_state_ref": "W10",
+        "camera_linear_velocity": [
+          0,
+          0,
+          0
+        ],
+        "camera_angular_velocity": [
+          0,
+          0,
+          0
+        ],
+        "vessel_velocity": [
+          0,
+          0,
+          0
+        ],
+        "lens_velocity": 0
+      },
+      "endpoint_values": "Not authored yet; compose and validate one shared endpoint, not independent start/end poses.",
+      "velocity_policy": "Settle to zero before question; reveal same pose after any wait; accelerate visibly inside next clip.",
+      "poster_policy": "One canonical endpoint image for K10; reuse for held and resumed opening.",
+      "status": "planned_unrendered"
+    }
+  ],
+  "verification": {
+    "native_camera_gate": "not_run; requires future authored poses and native",
+    "media_gate": "not_run; requires newly rendered clips",
+    "player_gate": "not_run; requires runtime changes",
+    "hyperframes_dom_seam_gate": "not_applicable_to_Blender_camera_MP4; no pass claimed",
+    "visual_comfort": "unverified until previs and actual quiz playback"
+  }
+}

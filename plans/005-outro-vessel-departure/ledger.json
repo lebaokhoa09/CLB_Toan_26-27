@@ -1,0 +1,74 @@
+{
+  "schema": "outro-departure-plan/v1",
+  "status": "implemented_prototype_v14",
+  "approved_reference": "voyage-v13",
+  "approved_native_sha256": "e4416bcf27617000498da033a541e9b46f07ed20cf5d6e949cff79e23ac8f0b7",
+  "locked_main_frames": [
+    1,
+    1500
+  ],
+  "outro_seconds": 8,
+  "camera_policy": "preserve approved world-space camera matrices as first option; do not follow departing actor",
+  "historical_route_policy": "keep ten stops and gold line ending at stop10",
+  "seams": [
+    {
+      "id": "K10-to-outro",
+      "intent": "interactive_pause",
+      "technique": "shared_pose_hold_resume",
+      "frame_pair": [
+        1500,
+        1501
+      ],
+      "exit_pose": "approved_K10",
+      "entry_pose": "approved_K10",
+      "exit_velocity": "zero",
+      "entry_velocity": "zero",
+      "unchanged_hold_seconds": [
+        0,
+        0.7
+      ]
+    }
+  ],
+  "departure": {
+    "scope": "in_scene_action_no_cut",
+    "starts_at_seconds": 0.7,
+    "velocity_ramp_seconds": 0.6,
+    "world_direction": "fixed final route tangent, approximately [0.942, -0.335, 0]",
+    "screen_exit": "right",
+    "camera_scale_sign": "pullback/shrinking projection, then stationary approved end frame",
+    "first_previs_speed_multiplier": 1.5,
+    "comparison_speed_multiplier": 1.4,
+    "estimated_body_exit_seconds": 6.6,
+    "estimated_flat_shadow_exit_seconds": 7.1,
+    "scale_policy": "unchanged vessel model scale",
+    "opacity_policy": "no fade/hide while visible",
+    "post_exit_policy": "remain outside through final poster; settle only outside view"
+  },
+  "text_timing_seconds": {
+    "title": 4.2,
+    "subtitle": 4.8,
+    "actions": 6.8
+  },
+  "gates_before_delivery": [
+    "first1500 frames and approved handoffs preserved",
+    "K10 and first0.7s preserved",
+    "all projected vessel parts outside after exit, no reentry",
+    "rendered soft shadow and rigging leave frame",
+    "no rushed departure in actual playback",
+    "new final poster matches new outro end",
+    "pause/reload/reduced-motion and final question gate preserved"
+  ],
+  "evidence_scope": "read-only projection using existing camera and source bounds; no new render or runtime test performed",
+  "hyperframes_dom_seam_gate": "not applicable to native actor departure; no pass claimed",
+  "implemented_native_sha256": "d8b9092f40237281bc6c7b830010aa664747fb0e954ea4d9ae9b8d66155a0219",
+  "actual_body_exit_seconds": 6.566666666666666,
+  "actual_conservative_shadow_exit_seconds": 7.133333333333334,
+  "verification": {
+    "native_checks": 27,
+    "browser_checks": 16,
+    "new_rendered_frames": 240,
+    "approved_main_reused_frames": 1500,
+    "approved_media_byte_identical": 22,
+    "scope": "Native, rendered samples, full decode and real browser verified; no universal comfort certification."
+  }
+}

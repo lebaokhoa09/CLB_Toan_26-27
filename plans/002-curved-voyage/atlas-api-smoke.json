@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "info": {
+    "type": "native-vector-procedural-atlas",
+    "logicalSize": [
+      9600,
+      3200
+    ],
+    "nativeSize": [
+      6144,
+      2048
+    ],
+    "nativePanels": [
+      [
+        2048,
+        2048
+      ],
+      [
+        2048,
+        2048
+      ],
+      [
+        2048,
+        2048
+      ]
+    ],
+    "atlasDrawCalls": 3,
+    "repeat": false,
+    "labels": false,
+    "markers": false,
+    "route": false,
+    "data": "Natural Earth 4.1.0 / world-atlas 2.0.2 countries-50m",
+    "resolution": "1:50m generalized vectors; native6144x2048 vector render; 0.64 pixels per logical unit",
+    "style": "illustrative navy mineral grain, violet facets, gold coasts and borders",
+    "referenceRasterUsed": false,
+    "bakedFromVectors": true,
+    "sourceArcs": 1959,
+    "sourcePoints": 80617,
+    "coastalPolygons": 1326,
+    "borderArcs": 362
+  },
+  "worldBounds": {
+    "left": -960,
+    "right": 8640,
+    "top": 540,
+    "bottom": -2660
+  },
+  "fileBytes": [
+    741410,
+    989106,
+    850112
+  ],
+  "disposedChildren": 0
+}
