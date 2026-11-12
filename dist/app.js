@@ -10,7 +10,7 @@ const $=id=>document.getElementById(id);
 const letters=['A','B','C','D'];
 const STORE='ky-thu-dai-hai.game.v1',PREFS='ky-thu-dai-hai.settings.v1';
 const FILM_MANIFESTS={v21:'./assets/voyage-v21/manifest.json'};
-const EXPECTED_FILM=Object.freeze({stage:'final-sails-v21-full-hd',width:1920,height:1080,nativeSha256:'3a47400276f9512fdb98bbe8f3b1d3b1cc714f4594de75a3aeb6f6f19cf32646'});
+const EXPECTED_FILM=Object.freeze({stage:'final-sails-v21-full-hd',width:1920,height:1080,nativeSha256:'c25312d6197e1fa7d8e059e52da448efca8860e36ea22e3e5a9486c100e7ad4b'});
 const motionQuery=matchMedia('(prefers-reduced-motion: reduce)');
 let preferences={duration:LEG_DURATION,quality:'auto',reduced:null};
 try{const p=JSON.parse(localStorage.getItem(PREFS));if(p&&typeof p==='object')preferences={...preferences,...p};}catch{}

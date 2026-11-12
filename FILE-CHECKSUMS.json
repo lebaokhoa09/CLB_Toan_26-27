@@ -94,7 +94,7 @@
     {
       "path": "dist/app.js",
       "size": 33543,
-      "sha256": "2cf5858fd4d37c1b4ed89721ab7bd7e9d3a82045888f00963f3dbdee460bce94"
+      "sha256": "5b7c775bbb0f01d46e8cdf6eb12f0a8397251e0bfa6edf80f1574e15c8b5cb9d"
     },
     {
       "path": "dist/assets/atlas/Natural-Earth-PUBLIC-DOMAIN.txt",
@@ -793,128 +793,128 @@
     },
     {
       "path": "dist/assets/voyage-v21/leg-01.mp4",
-      "size": 9058582,
-      "sha256": "8b5b0bc9a031e6117fd880ba8f1db4f5b75a691f9fb66cd8630b620dbea404ba"
+      "size": 9378288,
+      "sha256": "255b0848899c07b03ce83779738638443189d68d3ece7ba4dbb3e10534f587fb"
     },
     {
       "path": "dist/assets/voyage-v21/leg-02.mp4",
-      "size": 9479459,
-      "sha256": "549e404ba0e25c8a758f0d15e51e1bc000d59baf82146e1238ad1c6ab78e2593"
+      "size": 9482947,
+      "sha256": "5995f693b4126be2e851876d96f51720ac07adc6c1e09ab4d275bff1c506e3e8"
     },
     {
       "path": "dist/assets/voyage-v21/leg-03.mp4",
-      "size": 5429730,
-      "sha256": "033a7f8d45d5718aa33795e81c0067c0c79607ac7b2700baf1d8c63ad48b26fb"
+      "size": 5508202,
+      "sha256": "32624dea420ada848e970519927c402a2f247c313e5074c524fbcc144b77ec42"
     },
     {
       "path": "dist/assets/voyage-v21/leg-04.mp4",
-      "size": 5577092,
-      "sha256": "bce20aab1d3f632fc6bf45f8f18601ffbd56ae737532a638726459aa6d286a61"
+      "size": 5775952,
+      "sha256": "d42362912974cdecc349c82ac77c80727f38dede03ffaab54a97b226fe7a9e0a"
     },
     {
       "path": "dist/assets/voyage-v21/leg-05.mp4",
-      "size": 7934953,
-      "sha256": "4036b44ad9ef605aab91d4e8447be4a6122f36a29d846774e4e7b333146c81a0"
+      "size": 7953216,
+      "sha256": "50db2113c2aad6aacc292f7e0e24486095398dd4c0e801a21a5d7b7b80370147"
     },
     {
       "path": "dist/assets/voyage-v21/leg-06.mp4",
-      "size": 8771159,
-      "sha256": "5d0d966501539060d2c45c40e1ab72121c18f03160d6abc154b516c0fa3d8d5f"
+      "size": 8770919,
+      "sha256": "3fd5334540fac3c4a4b29d2435c90c540879c8a66068af16a595f97319e22d36"
     },
     {
       "path": "dist/assets/voyage-v21/leg-07.mp4",
-      "size": 10097073,
-      "sha256": "5361b667d48e4f393d95bcbf262d7f3846b01278a22d54ef4a7b523cf010ed88"
+      "size": 10156628,
+      "sha256": "8983b991ec832bae82119874daec75cce289e61749ebf952df11edb74f490a96"
     },
     {
       "path": "dist/assets/voyage-v21/leg-08.mp4",
-      "size": 8519774,
-      "sha256": "c77ca72afc55effecf223a65f73dbb1069bbac9181a8d9ef171efae7963675e8"
+      "size": 8537853,
+      "sha256": "46fade3de68624c8d8b14154fc38232a2c9a3c9ac44e196bd261d0b0621c64a4"
     },
     {
       "path": "dist/assets/voyage-v21/leg-09.mp4",
-      "size": 10872498,
-      "sha256": "59e602a37a109a10d2d6ba5d3258351b0664419544ec23190f3f9a1ca0db5b3e"
+      "size": 10850307,
+      "sha256": "83f8e52cde2519cd47266f8b79de99a29e45cc0861cb5e7d5186b0e3d58dc5d4"
     },
     {
       "path": "dist/assets/voyage-v21/leg-10.mp4",
-      "size": 8927036,
-      "sha256": "c513c359b8f6447ceab51b466866f3cec69342b43d884c2be48c40479f89fa45"
+      "size": 9145121,
+      "sha256": "b1f717bea1953bce9fa7f99f263826d6e2bcbe489f5a569b24b7a8917921f172"
     },
     {
       "path": "dist/assets/voyage-v21/manifest.json",
-      "size": 2940,
-      "sha256": "71843fce3a3b94dcbbf23fdab5b0f3ac579a82954adb91574ce957d74d5b142e"
+      "size": 3470,
+      "sha256": "c50e7902dca0a9d670b9015f094187816f6480472242c39f2c00ff721288375a"
     },
     {
       "path": "dist/assets/voyage-v21/media-report.json",
-      "size": 11749,
-      "sha256": "7860b65661849a00b2c1237fe67ad7f8bf001dbf992426d08a5918613fa559c9"
+      "size": 4318,
+      "sha256": "c8376e3e41ab82ae3616b11c022d2483122084a501df75f6b66f8238124fd781"
     },
     {
       "path": "dist/assets/voyage-v21/outro-end.jpg",
-      "size": 740848,
-      "sha256": "75f5255372af1c48d7d4e1c5df0b2bd223069a265b1efff402679dae1cad0005"
+      "size": 322737,
+      "sha256": "9feabaa40c28da6f2d83617557ee7cf29ba0c2f71d62b0d7439f7b617a4ca827"
     },
     {
       "path": "dist/assets/voyage-v21/outro.mp4",
-      "size": 7194101,
-      "sha256": "64255a15c4852c1bc2ebcdda6b39ce6ca3b0d81ea9febb608b959ba5be4ffe13"
+      "size": 7231504,
+      "sha256": "226775a7a60b4f420fe82e66a6bbb8c8c25916e71a2bc70dd6ed985be81f9429"
     },
     {
       "path": "dist/assets/voyage-v21/rest-00.jpg",
-      "size": 483178,
-      "sha256": "7550b28577c82986de39a710fcbfe3d9f5f67326b73e5fab3f9a1433c8274e5d"
+      "size": 216037,
+      "sha256": "5265516a572f3562d6c16afe17b66bb59ffdb1ac07a411e6ebe71595b48186aa"
     },
     {
       "path": "dist/assets/voyage-v21/rest-01.jpg",
-      "size": 895953,
-      "sha256": "19a7c5366d7564b9320bae1238bdbe263d393ecd5e476e40892ae9df25f07747"
+      "size": 471150,
+      "sha256": "cff839cfa886b024b3a0ee7c5374d25cc657d7c2bb4fc96b514d3cb44b551a04"
     },
     {
       "path": "dist/assets/voyage-v21/rest-02.jpg",
-      "size": 574491,
-      "sha256": "085fb3d509b94b5306050f559678dcc0afadd1ebb277239fe23223b4abc6f1da"
+      "size": 220482,
+      "sha256": "9e264f232e87888feaf48edcb1e7d6f7eceb7ebcfb4ab2613644c2a6e86698c2"
     },
     {
       "path": "dist/assets/voyage-v21/rest-03.jpg",
-      "size": 524452,
-      "sha256": "82be6423a0b697fa915998f89944238466d442319ca37526d1f328ae49c6674d"
+      "size": 184355,
+      "sha256": "140eb4b28b7293a241089a2c40c4e0f39b228a99c68fcae7a8d24ca40320f6f9"
     },
     {
       "path": "dist/assets/voyage-v21/rest-04.jpg",
-      "size": 604618,
-      "sha256": "14103c61e2e69d70191d60c5c7f5c322a80ef3d65bc6d38a93e50da82518788f"
+      "size": 251971,
+      "sha256": "aeba5fc7734faf4daad5e87bf744feeb8694ad506c4a1f3731e3d2d53b10972f"
     },
     {
       "path": "dist/assets/voyage-v21/rest-05.jpg",
-      "size": 637418,
-      "sha256": "61a7551c65c05ffe77f0fb0d4913b84bdc626fab3bf931ee8ee0b823012924ca"
+      "size": 271337,
+      "sha256": "f91edb5c50d43071e77cac2aed471e93a3927144deb4e2fc86855612f05b337d"
     },
     {
       "path": "dist/assets/voyage-v21/rest-06.jpg",
-      "size": 685154,
-      "sha256": "4b52dc6d1fba370a144672e687f12a1983c51b0132421ced7630f7ad837b4ffa"
+      "size": 305782,
+      "sha256": "0c92302d0f0219f59d2c71201bc6e4a36bda36c1495a9f4453cec5302211390c"
     },
     {
       "path": "dist/assets/voyage-v21/rest-07.jpg",
-      "size": 580525,
-      "sha256": "c9da890d436912da7d83556bf47911b3d32e84ff35dd9e6352fbbe05ffd2e801"
+      "size": 254169,
+      "sha256": "7d5480b6e4712d0378d92a6108bb0ef134d46fa2eaae55039aa040b2f4878a52"
     },
     {
       "path": "dist/assets/voyage-v21/rest-08.jpg",
-      "size": 541324,
-      "sha256": "17166e4a9f6272d1925c25bca8e5d14d10c91239c5e95dc487aabf0c141bb2c3"
+      "size": 230430,
+      "sha256": "fc261bb432e89609ced35a3e341e34c3d7c46de86d699cae15121013b5c474d9"
     },
     {
       "path": "dist/assets/voyage-v21/rest-09.jpg",
-      "size": 757357,
-      "sha256": "87aabbe92e052051f7d5a6cb44be124c16f66e1686779b0ce8432b0e357f2b2a"
+      "size": 353788,
+      "sha256": "5f59a84a771b606cff3ef82e63597120c0d1f86a0a2d2f68b3e6fbdd39ab22aa"
     },
     {
       "path": "dist/assets/voyage-v21/rest-10.jpg",
-      "size": 615989,
-      "sha256": "c08bb92afe274b2a3ba94427ea2e11e905bc0b190f2bbd29073682f2f604d614"
+      "size": 245002,
+      "sha256": "6cda5d95ff019ab984d248c3f5b0aeede57306e8b205778106a62bb2fba79cd5"
     },
     {
       "path": "dist/atlas.js",
@@ -943,8 +943,8 @@
     },
     {
       "path": "dist/index.html",
-      "size": 10943,
-      "sha256": "abce2b2ead583145e64e8c3e9390db1085456321d1271751c2de153b38727f68"
+      "size": 10949,
+      "sha256": "6d47fead7780a36b0ddcbbb8dc5f2f44760ad92cac11e4624bf5494d16878237"
     },
     {
       "path": "dist/music-credits.html",

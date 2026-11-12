@@ -1,434 +1,192 @@
 {
-  "native_sha256": "3a47400276f9512fdb98bbe8f3b1d3b1cc714f4594de75a3aeb6f6f19cf32646",
+  "native_sha256": "c25312d6197e1fa7d8e059e52da448efca8860e36ea22e3e5a9486c100e7ad4b",
   "clips": [
     {
       "name": "leg-01.mp4",
-      "bytes": 9058582,
-      "sha256": "8b5b0bc9a031e6117fd880ba8f1db4f5b75a691f9fb66cd8630b620dbea404ba",
+      "bytes": 9378288,
+      "sha256": "255b0848899c07b03ce83779738638443189d68d3ece7ba4dbb3e10534f587fb",
       "source_range": [
         1,
         150
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.3942706999951042
-      },
-      "encode_seconds": 3.413428300002124,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "leg-02.mp4",
-      "bytes": 9479459,
-      "sha256": "549e404ba0e25c8a758f0d15e51e1bc000d59baf82146e1238ad1c6ab78e2593",
+      "bytes": 9482947,
+      "sha256": "5995f693b4126be2e851876d96f51720ac07adc6c1e09ab4d275bff1c506e3e8",
       "source_range": [
         151,
         300
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.45079010003246367
-      },
-      "encode_seconds": 3.409254800004419,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "leg-03.mp4",
-      "bytes": 5429730,
-      "sha256": "033a7f8d45d5718aa33795e81c0067c0c79607ac7b2700baf1d8c63ad48b26fb",
+      "bytes": 5508202,
+      "sha256": "32624dea420ada848e970519927c402a2f247c313e5074c524fbcc144b77ec42",
       "source_range": [
         301,
         450
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.5394199000438675
-      },
-      "encode_seconds": 5.8423818000010215,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "leg-04.mp4",
-      "bytes": 5577092,
-      "sha256": "bce20aab1d3f632fc6bf45f8f18601ffbd56ae737532a638726459aa6d286a61",
+      "bytes": 5775952,
+      "sha256": "d42362912974cdecc349c82ac77c80727f38dede03ffaab54a97b226fe7a9e0a",
       "source_range": [
         451,
         600
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.647341999982018
-      },
-      "encode_seconds": 7.114332499972079,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "leg-05.mp4",
-      "bytes": 7934953,
-      "sha256": "4036b44ad9ef605aab91d4e8447be4a6122f36a29d846774e4e7b333146c81a0",
+      "bytes": 7953216,
+      "sha256": "50db2113c2aad6aacc292f7e0e24486095398dd4c0e801a21a5d7b7b80370147",
       "source_range": [
         601,
         750
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.7270057999994606
-      },
-      "encode_seconds": 8.812412800034508,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "leg-06.mp4",
-      "bytes": 8771159,
-      "sha256": "5d0d966501539060d2c45c40e1ab72121c18f03160d6abc154b516c0fa3d8d5f",
+      "bytes": 8770919,
+      "sha256": "3fd5334540fac3c4a4b29d2435c90c540879c8a66068af16a595f97319e22d36",
       "source_range": [
         751,
         900
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.8939008000306785
-      },
-      "encode_seconds": 9.054368400014937,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "leg-07.mp4",
-      "bytes": 10097073,
-      "sha256": "5361b667d48e4f393d95bcbf262d7f3846b01278a22d54ef4a7b523cf010ed88",
+      "bytes": 10156628,
+      "sha256": "8983b991ec832bae82119874daec75cce289e61749ebf952df11edb74f490a96",
       "source_range": [
         901,
         1050
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.8176012000185438
-      },
-      "encode_seconds": 9.217879800009541,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "leg-08.mp4",
-      "bytes": 8519774,
-      "sha256": "c77ca72afc55effecf223a65f73dbb1069bbac9181a8d9ef171efae7963675e8",
+      "bytes": 8537853,
+      "sha256": "46fade3de68624c8d8b14154fc38232a2c9a3c9ac44e196bd261d0b0621c64a4",
       "source_range": [
         1051,
         1200
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.8407045000349171
-      },
-      "encode_seconds": 10.075738799991086,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "leg-09.mp4",
-      "bytes": 10872498,
-      "sha256": "59e602a37a109a10d2d6ba5d3258351b0664419544ec23190f3f9a1ca0db5b3e",
+      "bytes": 10850307,
+      "sha256": "83f8e52cde2519cd47266f8b79de99a29e45cc0861cb5e7d5186b0e3d58dc5d4",
       "source_range": [
         1201,
         1350
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.8428094999981113
-      },
-      "encode_seconds": 9.727221500012092,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "leg-10.mp4",
-      "bytes": 8927036,
-      "sha256": "c513c359b8f6447ceab51b466866f3cec69342b43d884c2be48c40479f89fa45",
+      "bytes": 9145121,
+      "sha256": "b1f717bea1953bce9fa7f99f263826d6e2bcbe489f5a569b24b7a8917921f172",
       "source_range": [
         1351,
         1500
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 150,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 5.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 4.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 0.8213364999974146
-      },
-      "encode_seconds": 9.38745309994556,
-      "warnings": ""
+        "pass": true
+      }
     },
     {
       "name": "outro.mp4",
-      "bytes": 7194101,
-      "sha256": "64255a15c4852c1bc2ebcdda6b39ce6ca3b0d81ea9febb608b959ba5be4ffe13",
+      "bytes": 7231504,
+      "sha256": "226775a7a60b4f420fe82e66a6bbb8c8c25916e71a2bc70dd6ed985be81f9429",
       "source_range": [
         1501,
         1740
       ],
       "validation": {
-        "pass": true,
-        "checks": {
-          "decoded_frame_count": true,
-          "frame_indices": true,
-          "dimensions": true,
-          "fps": true,
-          "duration": true,
-          "first_pts_zero": true,
-          "last_pts": true,
-          "pts_monotonic": true,
-          "format_yuv420p": true,
-          "bt709_limited_tags": true,
-          "h264": true,
-          "decode_finished": true
-        },
         "decoded_frames": 240,
-        "fps": 30.0,
+        "fps": 30,
         "duration": 8.0,
         "width": 1920,
         "height": 1080,
-        "first_pts": 0.0,
-        "last_pts": 7.966667,
-        "pixel_formats": [
-          "yuv420p"
-        ],
-        "decode_seconds": 1.5751337999827228
-      },
-      "encode_seconds": 12.904584200005047,
-      "warnings": ""
+        "pass": true
+      }
     }
   ],
   "frame_count": 1740
