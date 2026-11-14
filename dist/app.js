@@ -1,4 +1,4 @@
-import { QUESTIONS } from './questions.js?v=21-cube-copy-6';
+import { QUESTIONS } from './questions.js?v=v21-quiz-20261114';
 import { STOPS, LEG_DURATION } from './route.js';
 import { createPresentationMusic } from './music.js?v=21-gull-14';
 
@@ -8,7 +8,7 @@ gsap.ticker.lagSmoothing(0);
 
 const $=id=>document.getElementById(id);
 const letters=['A','B','C','D'];
-const STORE='ky-thu-dai-hai.game.v1',PREFS='ky-thu-dai-hai.settings.v1';
+const STORE='ky-thu-dai-hai.game.v2',PREFS='ky-thu-dai-hai.settings.v1';
 const FILM_MANIFESTS={v21:'./assets/voyage-v21/manifest.json'};
 const EXPECTED_FILM=Object.freeze({stage:'final-sails-v21-full-hd',width:1920,height:1080,nativeSha256:'c25312d6197e1fa7d8e059e52da448efca8860e36ea22e3e5a9486c100e7ad4b'});
 const motionQuery=matchMedia('(prefers-reduced-motion: reduce)');
@@ -159,9 +159,7 @@ function reveal(animate){
     const s=b.querySelector('.answer-status');s.textContent=i===q.correct?'Đáp án đúng':i===selected?'Đã chọn':'';
     b.setAttribute('aria-label',`${letters[i]}. ${q.options[i]}${i===q.correct?', đáp án đúng':i===selected?', bạn đã chọn':''}`);
   }
-  $('score-small').textContent=`${score()} câu đúng`;$('answer-instruction').hidden=true;$('feedback').hidden=false;$('feedback').dataset.correct=String(correct);
-  $('feedback-title').textContent=correct?'Chính xác!':`Chưa chính xác. Đáp án ${letters[q.correct]}.`;
-  $('feedback-explanation').textContent=q.explanation;
+  $('score-small').textContent=`${score()} câu đúng`;$('answer-instruction').hidden=true;$('feedback').hidden=false;
   if(animate){playTone(correct?'correct':'wrong');announced(`${correct?'Chính xác':'Chưa chính xác'}. Đáp án ${letters[q.correct]}: ${q.options[q.correct]}.`);
     if(!reduced())gsap.fromTo($('feedback'),{opacity:0,y:8},{opacity:1,y:0,duration:.25,ease:'power3.out'});
     requestAnimationFrame(()=>{if(state.phase==='answered'&&!$('feedback').hidden)$('continue').focus({preventScroll:true});});
@@ -219,7 +217,7 @@ function goBack(){
 }
 function prepareComplete(){
   $('final-score').textContent=score();$('review-toggle').setAttribute('aria-expanded','false');$('review-toggle').textContent='Xem lại đáp án';$('answer-review').hidden=true;
-  $('answer-review').replaceChildren(...QUESTIONS.map((q,i)=>{const li=document.createElement('li'),h=document.createElement('h3'),p=document.createElement('p'),result=document.createElement('p');h.textContent=`${i+1}. ${q.title}`;p.textContent=`Đáp án ${letters[q.correct]}: ${q.options[q.correct]}`;result.className='review-result';result.textContent=state.answers[i]===q.correct?'Bạn đã trả lời đúng':`Bạn đã chọn ${letters[state.answers[i]]}. ${q.explanation}`;li.append(h,p,result);return li;}));
+  $('answer-review').replaceChildren(...QUESTIONS.map((q,i)=>{const li=document.createElement('li'),h=document.createElement('h3'),p=document.createElement('p'),result=document.createElement('p');h.textContent=`${i+1}. ${q.title}`;p.textContent=`Đáp án ${letters[q.correct]}: ${q.options[q.correct]}`;result.className='review-result';result.textContent=state.answers[i]===q.correct?'Bạn đã trả lời đúng':`Bạn đã chọn ${letters[state.answers[i]]}.`;li.append(h,p,result);return li;}));
 }
 function showFilmEnding(){showScreen('complete');$('voyage').hidden=false;$('voyage').inert=true;document.body.dataset.filmEnding='true';}
 function buildEndingTimeline(){

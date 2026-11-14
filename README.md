@@ -8,7 +8,7 @@ Chọn **Code → Download ZIP** trên GitHub, giải nén toàn bộ rồi bấ
 
 **Cần tải sẵn khi còn Internet.** Sau khi tải và giải nén, toàn bộ video, nhạc, hiệu ứng, font và thư viện chạy trên máy, không cần mạng. Có thể chép nguyên thư mục sang máy khác bằng USB.
 
-Xem [hướng dẫn từng bước và xử lý lỗi](HUONG-DAN-OFFLINE.md). Bản trình chiếu hiện tại là v21 Full HD, gồm 10 câu hỏi và bản âm thanh mới nhất có hải âu lặp xuyên suốt các cảnh hành trình.
+Xem [hướng dẫn từng bước và xử lý lỗi](HUONG-DAN-OFFLINE.md). Bản trình chiếu hiện tại dùng video tàu với sóng V3 ở Full HD và bộ 10 câu hỏi mới. Sau khi chốt lựa chọn, trò chơi đánh dấu đáp án đúng và hiện nút đi tiếp bên dưới.
 
 Các mục bên dưới ghi lại thay đổi và những bản thử trước đây; mở bằng **OPEN.cmd** luôn dùng bản v21 hiện tại.
 

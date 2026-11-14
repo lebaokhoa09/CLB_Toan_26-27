@@ -78,8 +78,8 @@
     },
     {
       "path": "README.md",
-      "size": 14249,
-      "sha256": "aa8beeb1cfbb14a3c8852875c8fdc062b710dce4b586ee1e486b6cea69f48ffb"
+      "size": 14304,
+      "sha256": "b4bd292491f6e449aa946fdfb4368d5e0f1296eda08d1f1726587baa6263ca9a"
     },
     {
       "path": "WORLD-BIBLE.md",
@@ -93,8 +93,8 @@
     },
     {
       "path": "dist/app.js",
-      "size": 33543,
-      "sha256": "5b7c775bbb0f01d46e8cdf6eb12f0a8397251e0bfa6edf80f1574e15c8b5cb9d"
+      "size": 33314,
+      "sha256": "3124c7e4110865fbfa26ae365091806ade0e87367ed7d8af9b4f69b6900a3d3b"
     },
     {
       "path": "dist/assets/atlas/Natural-Earth-PUBLIC-DOMAIN.txt",
@@ -943,8 +943,8 @@
     },
     {
       "path": "dist/index.html",
-      "size": 10949,
-      "sha256": "6d47fead7780a36b0ddcbbb8dc5f2f44760ad92cac11e4624bf5494d16878237"
+      "size": 10813,
+      "sha256": "0c0d28b018b8d7f7cf2be4602382fbbbef6d2ed474f189a23e29752d2a3ce4f1"
     },
     {
       "path": "dist/music-credits.html",
@@ -958,8 +958,8 @@
     },
     {
       "path": "dist/questions.js",
-      "size": 8571,
-      "sha256": "4457ef38b6dd2b90750328ec5d789fe9e09f51c1d5486992d2556378cbb0edee"
+      "size": 6334,
+      "sha256": "f8e460edf4b040461c41531cada4598ebaae16d85451aa2f52f78bd82f6765fc"
     },
     {
       "path": "dist/route.js",
@@ -973,8 +973,8 @@
     },
     {
       "path": "dist/style.css",
-      "size": 22810,
-      "sha256": "c621c30fbb5c174f48b7b0bceefb725c95077d5217a22e842c20b7e6561f5486"
+      "size": 21961,
+      "sha256": "3a82294bfc9f287f2d5e8625aa4606a7a503d00002019bbd7fe8415c5e21c349"
     },
     {
       "path": "dist/vendor/Three-LICENSE.txt",
